@@ -34,8 +34,7 @@ namespace DSCC.MicroservicesAPI._7924.Controllers
             return Ok(plants.Select(b => new PlantDTO
             {
                 Id = b.Id,
-                PlantName = b.PlantName,
-                PlantCategory = b.PlantType.ToString()
+                PlantName = b.PlantName
             }));
 
 

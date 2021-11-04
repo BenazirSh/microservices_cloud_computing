@@ -10,6 +10,6 @@ namespace DSCC.MicroservicesAPI._7924.DTO
         public int Id { get; set; }
 
         public string PlantName { get; set; }
-        public string PlantCategory { get; set; }
+
     }
 }

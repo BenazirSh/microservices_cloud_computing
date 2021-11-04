@@ -35,10 +35,8 @@ namespace DSCC.MicroservicesAPI._7924.Controllers
                 Id = b.Id,
                 FirstName = b.FirstName,
                 LastName = b.LastName,
-                GenderType = b.Gender.ToString(),
-                DateOfBirth = b.DateOfBirth,
-                PlantID = b.PlantID,
-                Plant = b.Plant
+                PhoneNumber = b.PhoneNumber,
+                PlantID = b.PlantID
 
             }));
         } 

@@ -11,18 +11,11 @@ namespace DSCC.MicroservicesAPI._7924.Model
     {
         public int Id { get; set; }
         public string PlantName { get; set; }
-        public PlantType PlantType { get; set; }
-
+  
         [JsonIgnore]
         public virtual ICollection<Client> Clients { get; set; }
     }
 
     //[JsonConverter(typeof(StringEnumConverter))]
-    public enum PlantType
-    {
-        Flower,
-        Bush,
-        Tree
-
-    }
+    
 }

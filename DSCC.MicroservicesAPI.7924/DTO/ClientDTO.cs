@@ -13,12 +13,7 @@ namespace DSCC.MicroservicesAPI._7924.DTO
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
-
-        public string GenderType { get; set; }
-
-        public DateTime DateOfBirth { get; set; }
-
-
+        public string PhoneNumber { get; set; }
         public int PlantID { get; set; }
 
         public Plant Plant { get; set; }
