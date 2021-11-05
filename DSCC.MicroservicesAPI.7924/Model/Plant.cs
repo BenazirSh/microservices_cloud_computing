@@ -12,8 +12,8 @@ namespace DSCC.MicroservicesAPI._7924.Model
         public int Id { get; set; }
         public string PlantName { get; set; }
   
-        [JsonIgnore]
-        public virtual ICollection<Client> Clients { get; set; }
+      /*  [JsonIgnore]
+        public virtual ICollection<Client> Clients { get; set; } */
     }
 
     //[JsonConverter(typeof(StringEnumConverter))]

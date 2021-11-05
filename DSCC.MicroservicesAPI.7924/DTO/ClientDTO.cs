@@ -16,6 +16,5 @@ namespace DSCC.MicroservicesAPI._7924.DTO
         public string PhoneNumber { get; set; }
         public int PlantID { get; set; }
 
-        public Plant Plant { get; set; }
     }
 }

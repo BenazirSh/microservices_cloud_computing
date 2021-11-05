@@ -29,7 +29,7 @@ namespace DSCC.MicroservicesAPI._7924.Repository
 
         public async Task<List<Client>> GetAll()
         {
-            return await _context.Clients.Include(p => p.Plant).ToListAsync();
+            return await _context.Clients.ToListAsync();
         }
 
 
