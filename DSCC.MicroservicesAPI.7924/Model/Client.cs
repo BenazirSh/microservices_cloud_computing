@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DSCC.MicroservicesAPI._7924.Model
 {
-    public class Client : IBaseDBO
+    public class Client 
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }

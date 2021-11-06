@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DSCC.MicroservicesAPI._7924.Model
 {
-    public class Plant : IBaseDBO
+    public class Plant 
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public string PlantName { get; set; }
   
       /*  [JsonIgnore]

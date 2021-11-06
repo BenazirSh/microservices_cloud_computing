@@ -32,7 +32,7 @@ namespace DSCC.MicroservicesAPI._7924.Controllers
             var clients = await _clientRepo.GetAll();
             return Ok(clients.Select(b => new ClientDTO
             {
-                Id = b.Id,
+                Id = (int)b.Id,
                 FirstName = b.FirstName,
                 LastName = b.LastName,
                 PhoneNumber = b.PhoneNumber,

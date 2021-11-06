@@ -33,7 +33,7 @@ namespace DSCC.MicroservicesAPI._7924.Controllers
             var plants = await _plantRepo.GetAll();
             return Ok(plants.Select(b => new PlantDTO
             {
-                Id = b.Id,
+                Id = (int) b.Id,
                 PlantName = b.PlantName
             }));
 
