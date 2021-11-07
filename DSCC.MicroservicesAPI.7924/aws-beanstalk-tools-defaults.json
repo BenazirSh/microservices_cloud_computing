@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-2",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "DSCCMicroservicesAPI7924",
+    "environment"    : "DSCCMicroservicesAPI7924-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0cae8db0504dda611\";\"aws:ec2:vpc,Subnets\"=\"subnet-08ac4c2c58016b8c5\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.2.7 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "dsccmicroservicesapi7924-dev",
+    "instance-type"        : "t3a.micro",
+    "key-pair"             : "LinPair",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
